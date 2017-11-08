@@ -1,3 +1,12 @@
-gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 3;
+#!/bin/bash
 
-gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3;
+SIZE=$1
+
+if [ $# -eq 0 ]
+  then
+    SIZE=3
+fi
+
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize $SIZE;
+
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize $SIZE;
