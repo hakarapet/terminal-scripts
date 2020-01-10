@@ -11,3 +11,13 @@ Changes Ubuntu default terminal to zsh
   ```
   ./zsh-ubuntu-terminal.sh revert
   ```
+
+# neovim customize
+Customize terminal text editor neovim 
+
+## Usage
+- Update your `init.vim` file with the following code from `nvim_init.vim`.\
+Supposedly the init file is located at `~\.config\nvim`
+- Replace it or if not existing create a file and put the code there.
+- Run `:PlugInstall` and `:UpdateRemotePlugins`
+- Struggle to learn nvim, but enjoy it later...
