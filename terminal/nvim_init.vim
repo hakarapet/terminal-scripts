@@ -47,7 +47,7 @@ Plug 'jreybert/vimagit'
 Plug 'tpope/vim-fugitive'
 
 " Python Black plugin
-Plug 'ambv/black'
+Plug 'psf/black', { 'branch': 'stable' }
 
 " File Explorer
 Plug 'scrooloose/nerdtree'
